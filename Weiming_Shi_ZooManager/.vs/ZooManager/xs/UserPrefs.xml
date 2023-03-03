@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{DEF5AF9A-50F8-4FED-BC52-14C220FCA982}|Default">
+  <MonoDevelop.Ide.ItemProperties.ZooManager PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ZooManager/Cat.cs">
+    <Files>
+      <File FileName="ZooManager/Pages/Index.razor" Line="82" Column="23" />
+      <File FileName="ZooManager/Zone.cs" />
+      <File FileName="ZooManager/Cat.cs" Line="1" Column="1" />
+      <File FileName="ZooManager/Mouse.cs" Line="14" Column="14" />
+      <File FileName="ZooManager/Animal.cs" Line="1" Column="1" />
+      <File FileName="ZooManager/Game.cs" Line="1" Column="1" />
+      <File FileName="ZooManager/Point.cs" Line="1" Column="1" />
+      <File FileName="ZooManager/Program.cs" Line="1" Column="1" />
+      <File FileName="ZooManager/Bird.cs" Line="9" Column="24" />
+      <File FileName="ZooManager/App.razor" Line="1" Column="1" />
+      <File FileName="ZooManager/Chick.cs" Line="9" Column="24" />
+      <File FileName="ZooManager/Direction.cs" Line="1" Column="1" />
+      <File FileName="ZooManager/Raptor.cs" Line="9" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ZooManager" expanded="True">
+            <Node name="ZooManager" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Shared" expanded="True">
+                <Node name="MainLayout.razor" expanded="True" />
+              </Node>
+              <Node name="Cat.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
