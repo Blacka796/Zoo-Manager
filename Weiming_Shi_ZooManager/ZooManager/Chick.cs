@@ -15,7 +15,7 @@ namespace ZooManager
         public override void Activate()
         {
             base.Activate();
-            Console.WriteLine("I am a raptor. Meow.");
+            Console.WriteLine("I am a chick.");
             Hunt();
         }
 
@@ -27,23 +27,23 @@ namespace ZooManager
          * cat also has a predator to avoid, since the cat may not want to run in
          * to a square that sets it up to be attacked!
          */
-        public new void Hunt()
+        public override void Hunt()
         {
             if (Game.Seek(location.x, location.y, Direction.up, "cat"))
             {
-                Game.Attack(this, Direction.up);
+                this.Retreat(Direction.down);
             }
             else if (Game.Seek(location.x, location.y, Direction.down, "cat"))
             {
-                Game.Attack(this, Direction.down);
+                this.Retreat(Direction.up);
             }
             else if (Game.Seek(location.x, location.y, Direction.left, "cat"))
             {
-                Game.Attack(this, Direction.left);
+                this.Retreat(Direction.right);
             }
             else if (Game.Seek(location.x, location.y, Direction.right, "cat"))
             {
-                Game.Attack(this, Direction.right);
+                this.Retreat(Direction.left);
             }
         }
     }

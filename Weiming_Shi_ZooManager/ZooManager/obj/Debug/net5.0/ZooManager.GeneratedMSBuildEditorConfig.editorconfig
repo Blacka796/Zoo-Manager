@@ -10,4 +10,4 @@ build_property.EnableSingleFileAnalyzer =
 build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = ZooManager
-build_property.ProjectDir = /Users/david/Downloads/W7_ZooManager_HW/ZooManager/
+build_property.ProjectDir = /Users/david/Documents/GitHub/Zoo-Manager/Weiming_Shi_ZooManager/ZooManager/

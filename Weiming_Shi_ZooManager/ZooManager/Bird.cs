@@ -15,7 +15,7 @@ namespace ZooManager
         public override void Activate()
         {
             base.Activate();
-            Console.WriteLine("I am a bird. Meow.");
+            Console.WriteLine("I am a bird.");
             Hunt();
         }
 
@@ -27,7 +27,7 @@ namespace ZooManager
          * cat also has a predator to avoid, since the cat may not want to run in
          * to a square that sets it up to be attacked!
          */
-        public void Hunt()
+        virtual public void Hunt()
         {
  
         }

@@ -1150,11 +1150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/david/Downloads/W7_ZooManager_HW/ZooManager/ZooManager.csproj",
+      "projectUniqueName": "/Users/david/Documents/GitHub/Zoo-Manager/Weiming_Shi_ZooManager/ZooManager/ZooManager.csproj",
       "projectName": "ZooManager",
-      "projectPath": "/Users/david/Downloads/W7_ZooManager_HW/ZooManager/ZooManager.csproj",
+      "projectPath": "/Users/david/Documents/GitHub/Zoo-Manager/Weiming_Shi_ZooManager/ZooManager/ZooManager.csproj",
       "packagesPath": "/Users/david/.nuget/packages/",
-      "outputPath": "/Users/david/Downloads/W7_ZooManager_HW/ZooManager/obj/",
+      "outputPath": "/Users/david/Documents/GitHub/Zoo-Manager/Weiming_Shi_ZooManager/ZooManager/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/david/.config/NuGet/NuGet.Config"

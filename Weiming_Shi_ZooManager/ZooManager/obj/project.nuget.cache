@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CT8bvh9wTrCt8c/U4TmA5mtjrRvSrEwZ/GE9EYIvewPL+F5MhWFMr0T6PBopjQy5iVqet9pbMcueQCOScKBSeQ==",
+  "dgSpecHash": "l1ieeG/h4wW1pwV4FgQv4dnI/VQ4+nz8UMSpo7+oY8KrcIzh62QPUfVDXHUC4ZeSyHEcCmWxmgoseQB0QKm2jQ==",
   "success": true,
-  "projectFilePath": "/Users/david/Downloads/W7_ZooManager_HW/ZooManager/ZooManager.csproj",
+  "projectFilePath": "/Users/david/Documents/GitHub/Zoo-Manager/Weiming_Shi_ZooManager/ZooManager/ZooManager.csproj",
   "expectedPackageFiles": [
     "/Users/david/.nuget/packages/microsoft.aspnetcore.authorization/5.0.17/microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "/Users/david/.nuget/packages/microsoft.aspnetcore.components/5.0.17/microsoft.aspnetcore.components.5.0.17.nupkg.sha512",

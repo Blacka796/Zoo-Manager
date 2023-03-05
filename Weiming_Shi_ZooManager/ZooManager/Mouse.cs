@@ -32,6 +32,7 @@ namespace ZooManager
          */
         public void Flee()
         {
+            /*
             if (Game.Seek(location.x, location.y, Direction.up, "cat"))
             {
                 if (Game.Retreat(this, Direction.down)) return;
@@ -48,6 +49,17 @@ namespace ZooManager
             {
                 if (Game.Retreat(this, Direction.left)) return;
             }
+            */
+
+            /*
+             * g/ if detects a predator nearby, it 
+            attempts to move 2 squares in a random direc?on instead of using Retreat.
+            */
+            Direction[] directions = new Direction[] { Direction.down, Direction.up, Direction.left, Direction.right };
+            int index = new Random().Next(4);
+            Direction d = directions[index];
+
+            this.Move(d, 2);
         }
     }
 }

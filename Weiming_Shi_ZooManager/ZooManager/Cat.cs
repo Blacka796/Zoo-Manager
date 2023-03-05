@@ -27,57 +27,21 @@ namespace ZooManager
          * cat also has a predator to avoid, since the cat may not want to run in
          * to a square that sets it up to be attacked!
          */
-        public void Hunt()
+        public override void Hunt()
         {
-            if (Game.Seek(location.x, location.y, Direction.up, "mouse"))
+            if (Avoid("raptor"))
             {
-                Game.Attack(this, Direction.up);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.down, "mouse"))
-            {
-                Game.Attack(this, Direction.down);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.left, "mouse"))
-            {
-                Game.Attack(this, Direction.left);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.right, "mouse"))
-            {
-                Game.Attack(this, Direction.right);
+                return;
             }
 
-            if (Game.Seek(location.x, location.y, Direction.up, "chick"))
+            if (Hunt("mouse"))
             {
-                Game.Attack(this, Direction.up);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.down, "chick"))
-            {
-                Game.Attack(this, Direction.down);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.left, "chick"))
-            {
-                Game.Attack(this, Direction.left);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.right, "chick"))
-            {
-                Game.Attack(this, Direction.right);
+                return;
             }
 
-            if (Game.Seek(location.x, location.y, Direction.up, "raptor"))
+            if (Hunt("chick"))
             {
-                Game.Retreat(this, Direction.up);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.down, "raptor"))
-            {
-                Game.Retreat(this, Direction.down);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.left, "raptor"))
-            {
-                Game.Retreat(this, Direction.left);
-            }
-            else if (Game.Seek(location.x, location.y, Direction.right, "raptor"))
-            {
-                Game.Retreat(this, Direction.right);
+                return;
             }
         }
     }
